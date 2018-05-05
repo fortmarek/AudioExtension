@@ -5,3 +5,10 @@ target 'AudioExtension' do
     pod 'ReactantUI'
     pod 'ReactantLiveUI', :configuration => 'Debug'
 end
+
+target 'ViewExtension' do
+    use_frameworks!
+    pod 'Reactant', '~> 1.0'
+    pod 'ReactantUI'
+    pod 'ReactantLiveUI', :configuration => 'Debug'
+end

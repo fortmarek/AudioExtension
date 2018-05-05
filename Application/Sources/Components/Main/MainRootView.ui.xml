@@ -7,7 +7,11 @@
                         http://schema.reactant.tech/layout http://schema.reactant.tech/layout.xsd"
     rootView="true">
 
-    <Label
-        text="Hello World!"
-        layout:center="super" />
+    <Button
+        field="playButton"
+        layout:center="super"
+        title.normal="Play"
+        title.selected="Pause"
+        tintColor="black"
+        backgroundColor="black" />
 </Component>

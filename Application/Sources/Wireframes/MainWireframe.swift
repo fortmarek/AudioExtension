@@ -15,7 +15,8 @@ final class MainWireframe: Wireframe {
 
     private func main() -> MainController {
         return create { provider in
-            return MainController()
+            let properties = MainController.Properties(playEngine: self.module.playEngine)
+            return MainController(properties: properties)
         }
     }
 }
